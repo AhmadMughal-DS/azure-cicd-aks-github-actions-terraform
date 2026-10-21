@@ -3,7 +3,9 @@
 > Terraform provisions ACR + AKS; a GitHub Actions pipeline builds the image, pushes to ACR, and deploys to AKS on every push to `main`.
 > **Author:** Muhammad Ahmad · **IaC:** Terraform · **Cloud:** Azure
 
-![Terraform](https://img.shields.io/badge/Terraform-1.5%2B-7B42BC?logo=terraform&logoColor=white)
+![Terraform CI](https://github.com/AhmadMughal-DS/azure-cicd-aks-github-actions-terraform/actions/workflows/terraform.yml/badge.svg)
+![Terraform](https://img.shields.io/badge/Terraform-1.6%2B-7B42BC?logo=terraform&logoColor=white)
+![Security](https://img.shields.io/badge/scanned-tfsec%20%7C%20checkov-success)
 ![Azure](https://img.shields.io/badge/Azure-AKS%20%7C%20ACR-0078D4?logo=microsoftazure&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
